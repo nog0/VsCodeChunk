@@ -1,0 +1,19 @@
+{
+	"vue3模板": { //快捷输入的时候显示的提示
+		"prefix": "vue", //输入的前缀，就是输入这个会有提示
+		"description": "vue3模板", //描述
+		"body": [ //这个是一个字符串数组，就是会输出的内容，如果内容含有 双引号，需要转义，比如最下面的lang=\"scss\"
+			"<template>",
+			"  <div></div>",
+			"</template>",
+			"",
+			"<script setup>",
+			"",
+			"</script>",
+			"",
+			"<style lang=\"scss\" scoped>",
+			"</style>",
+			""
+		]
+	},
+}
